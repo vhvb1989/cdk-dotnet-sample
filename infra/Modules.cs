@@ -192,9 +192,9 @@ module api 'api.bicep' = {
     allowedOrigins: [ ]
     appSettings: {
     }
-    runtimeName: 'python'
-    runtimeVersion: '3.10'
-    scmDoBuildDuringDeployment: true
+    runtimeName: 'dotnetcore'
+    runtimeVersion: '6.0'
+    scmDoBuildDuringDeployment: false
   }
 }
 
